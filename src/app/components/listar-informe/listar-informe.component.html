@@ -26,6 +26,7 @@
                           <td>{{ informe.cantidad_dosis_aplicadas }}</td>
                           <td>{{ informe.fecha_corte }}</td>
                           <td>
+                            <i [routerLink]="['/editar-informe', informe._id]" class="icon-image"></i>
                             <i [routerLink]="['/editar-informe', informe._id]" class="fa-regular fa-pen-to-square text-primary"></i>
                             <i (click)="eliminarInforme(informe._id)" class="fa-solid fa-trash text-danger"></i>
                           </td>

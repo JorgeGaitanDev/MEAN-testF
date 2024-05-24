@@ -69,6 +69,7 @@ export class CrearInformeComponent implements OnInit {
   }
 
   esEditar() {
+
     if(this.id !== null) {
       this.titulo = 'Editar informe';
       this._informeService.obtenerInforme(this.id).subscribe(data => {

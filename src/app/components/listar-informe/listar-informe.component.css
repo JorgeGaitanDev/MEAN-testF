@@ -6,3 +6,11 @@
   cursor: pointer;
   margin-left: 7px;
 }
+
+.icon-image{
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-size: contain;
+  background-image: url('../../../assets/Telefono-01.png');
+}
